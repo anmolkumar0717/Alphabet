@@ -1,10 +1,10 @@
-#PyTorch Tensors and Functions
+# PyTorch Tensors and Functions
 Welcome to the PyTorch Tensors and Functions README! In this document, we will explore PyTorch tensors and some of its fundamental functions, including rand.
 
-What are Tensors?
+# What are Tensors?
 Tensors are the fundamental data structure of PyTorch. They are similar to NumPy arrays but are designed to be used on GPUs for accelerated computing. Tensors can have different dimensions (or ranks), similar to matrices in mathematics.
 
-Creating Tensors
+# Creating Tensors
 You can create tensors in PyTorch using various methods. Here are some common ones:
 
 python
