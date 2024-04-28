@@ -10,6 +10,32 @@ You can create tensors in PyTorch using various methods. Here are some common on
 python
 Copy code
 import torch
+import torch
+
+# Create an empty tensor
+empty_tensor = torch.empty(3, 3)
+print("Empty Tensor:")
+print(empty_tensor)
+
+# Create a tensor with random values
+random_tensor = torch.rand(3, 3)
+print("\nRandom Tensor:")
+print(random_tensor)
+
+# Create a tensor with zeros
+zeros_tensor = torch.zeros(3, 3)
+print("\nZeros Tensor:")
+print(zeros_tensor)
+
+# Create a tensor with ones
+ones_tensor = torch.ones(3, 3)
+print("\nOnes Tensor:")
+print(ones_tensor)
+
+# Create a tensor from a Python list
+list_tensor = torch.tensor([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("\nTensor from List:")
+print(list_tensor)
 
 # Create an empty tensor
 empty_tensor = torch.empty(3, 3)
